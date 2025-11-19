@@ -10,7 +10,7 @@ const Navigation = () => {
     <nav className="fixed top-0 w-full bg-background/95 backdrop-blur-sm border-b border-border z-50 shadow-sm">
       <div className="container mx-auto px-4 py-4 flex justify-between items-center">
         <Link to="/" className="text-xl font-bold text-foreground hover:text-primary transition-colors">
-          Greg, Tech Handyman
+          Greg your High Tech Handyman
         </Link>
         
         <div className="flex items-center gap-4">
