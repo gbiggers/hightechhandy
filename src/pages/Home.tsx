@@ -115,6 +115,7 @@ const Home = () => {
             <p className="text-lg text-muted-foreground mb-8 max-w-2xl mx-auto">
               Get personalized, friendly help that actually makes sense.
 No jargon, just solutions.
+Use the button below to text Greg:
 
 
 
@@ -127,15 +128,15 @@ No jargon, just solutions.
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Link to="/request-help">
                 <Button size="lg" className="text-lg">
-                  Request a call back
+                  Text Greg
                 </Button>
               </Link>
-              <a href="tel:8053160088">
+              {/* <a href="tel:8053160088">
                 <Button size="lg" variant="outline" className="text-lg">
                   <Phone className="mr-2 h-5 w-5" />
                   Text or call now
                 </Button>
-              </a>
+              </a> */}
             </div>
           </Card>
         </div>

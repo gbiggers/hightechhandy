@@ -16,9 +16,9 @@ const Navigation = () => {
             <span className="font-semibold">(805) 316-0088</span>
           </a>
           
-          {isHome ? <Link to="/request-help">
+          {isHome ? <a href="sms:8053160088&body=I need High Tech Handyman help">
               <Button variant="default">I need help</Button>
-            </Link> : <Link to="/">
+            </a> : <Link to="/">
               <Button variant="outline">Home</Button>
             </Link>}
         </div>
