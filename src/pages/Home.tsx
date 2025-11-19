@@ -52,8 +52,8 @@ I can help.
                   I can help.
                 </span>
               </h1>
-              <p className="text-xl text-muted-foreground">
-                Hi. I'm Greg— your friendly high tech handyman. I solve technology challenges with phones, computers, TVs, and Wi-Fi— making tech work for you, not against you. Whether setting up something newer addressing exiting problems, I’ll help.                          
+              <p className="text-xl text-muted-foreground font-medium">
+                Hi. I'm Greg— your friendly high tech handyman. I solve technology challenges with phones, computers, TVs, and Wi-Fi— making tech work for you, not against you. Whether setting up something new or addressing exiting problems, let me help you.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                
               </p>
               
               <div className="flex flex-col sm:flex-row gap-4 pt-4">
@@ -71,7 +71,7 @@ I can help.
               </div>
               
               <p className="text-sm text-muted-foreground pt-2">
-                Text today or request a call back
+                Serving San Luis Obispo and northern Santa Barbara counties                                              
               </p>
             </div>
             
