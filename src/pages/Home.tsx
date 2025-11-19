@@ -46,23 +46,21 @@ const Home = () => {
             <div className="space-y-6">
               <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold text-foreground leading-tight">
                 Got technology needs?
-I can help.
                 <br />
                 <span className="bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent">
                   I can help.
                 </span>
               </h1>
               <p className="text-xl text-muted-foreground font-medium">
-                Hi. I'm Greg— your friendly high tech handyman. I solve technology challenges with phones, computers, TVs, and Wi-Fi— making tech work for you, not against you. Whether setting up something new or addressing exiting problems, let me help you.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                
+                Hi. I'm Greg— your friendly high tech handyman. I solve technology challenges with phones, computers, TVs, and Wi-Fi— making tech work for you, not against you. Whether setting up something new or addressing existing problems, let me help you.
               </p>
               
               <div className="flex flex-col sm:flex-row gap-4 pt-4">
-                <Link to="/request-help">
                 <a href="sms:8053160088&body=I need High Tech Handyman Help">
                   <Button size="lg" className="w-full sm:w-auto text-lg">
                     I need help
                   </Button>
-                </Link>
+                </a>
                 <a href="tel:8053160088">
                   <Button size="lg" variant="outline" className="w-full sm:w-auto text-lg">
                     <Phone className="mr-2 h-5 w-5" />
@@ -72,7 +70,7 @@ I can help.
               </div>
               
               <p className="text-sm text-muted-foreground pt-2">
-                Serving the Central Coast from Lompoc to San Luis Obispo to Cambria  and northern Santa Barbara counties                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            
+                Serving the Central Coast from Lompoc to San Luis Obispo to Cambria and northern Santa Barbara counties
               </p>
             </div>
             

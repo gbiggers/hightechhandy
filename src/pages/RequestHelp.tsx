@@ -34,7 +34,7 @@ const RequestHelp = () => {
     }
 
     // In a real app, this would send to a backend
-    console.log("Form submitted:", formData);
+    // console.log("Form submitted:", formData);
     
     toast({
       title: "Request received!",
