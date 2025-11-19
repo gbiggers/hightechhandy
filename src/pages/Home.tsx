@@ -113,7 +113,10 @@ const Home = () => {
               Ready to solve your tech challenges?
             </h2>
             <p className="text-lg text-muted-foreground mb-8 max-w-2xl mx-auto">
-              Get personalized, friendly tech help that actually makes sense. No jargon, just solutions.
+              Get personalized, friendly tech help that actually makes sense.
+No jargon, just solutions.
+
+
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Link to="/request-help">
