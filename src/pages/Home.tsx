@@ -138,7 +138,7 @@ const Home = () => {
       {/* Footer */}
       <footer className="py-8 px-4 border-t border-border">
         <div className="container mx-auto text-center text-muted-foreground">
-          <p>© 2024 Greg, Tech Handyman. Making technology work for you.</p>
+          <p>© 2024 Greg your High Tech Handyman. Making technology work for you.</p>
           <p className="mt-2">
             <a href="tel:8053160088" className="hover:text-primary transition-colors">
               (805) 316-0088
