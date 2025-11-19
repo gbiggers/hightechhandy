@@ -1,3 +1,7 @@
+# High Tech Handyman Website
+
+Deployed to GitHub Pages at: https://gbiggers.github.io/hightechhandy/
+
 # Welcome to your Lovable project
 
 ## Project info
