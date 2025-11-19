@@ -58,6 +58,7 @@ I can help.
               
               <div className="flex flex-col sm:flex-row gap-4 pt-4">
                 <Link to="/request-help">
+                <a href="sms:8053160088&body=I need High Tech Handyman Help">
                   <Button size="lg" className="w-full sm:w-auto text-lg">
                     I need help
                   </Button>
