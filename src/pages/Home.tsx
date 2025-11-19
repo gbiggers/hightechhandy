@@ -52,7 +52,7 @@ const Home = () => {
                 </span>
               </h1>
               <p className="text-xl text-muted-foreground">
-                Hi, I'm Greg, your friendly high tech handyman. I solve technology challenges with phones, computers, TVs, and Wi-Fi – making tech work for you, not against you.
+                Hi, I'm Greg, your friendly high tech handyman. I solve technology challenges with phones, computers, TVs, and Wi-Fi— making tech work for you, not against you.
               </p>
               
               <div className="flex flex-col sm:flex-row gap-4 pt-4">
