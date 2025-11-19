@@ -3,34 +3,40 @@ import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
 import Navigation from "@/components/Navigation";
 import heroImage from "@/assets/hero-tech-support.jpg";
-import { 
-  Smartphone, 
-  Tablet, 
-  Monitor, 
-  Wifi, 
-  Tv, 
-  Printer,
-  AppWindow,
-  Globe,
-  Phone
-} from "lucide-react";
-
-const services = [
-  { name: "iPhone", icon: Smartphone },
-  { name: "Android", icon: Smartphone },
-  { name: "Tablets", icon: Tablet },
-  { name: "Apps", icon: AppWindow },
-  { name: "Mac", icon: Monitor },
-  { name: "Windows", icon: Monitor },
-  { name: "Internet", icon: Globe },
-  { name: "Wi-Fi", icon: Wifi },
-  { name: "Smart TVs", icon: Tv },
-  { name: "Printers", icon: Printer },
-];
-
+import { Smartphone, Tablet, Monitor, Wifi, Tv, Printer, AppWindow, Globe, Phone } from "lucide-react";
+const services = [{
+  name: "iPhone",
+  icon: Smartphone
+}, {
+  name: "Android",
+  icon: Smartphone
+}, {
+  name: "Tablets",
+  icon: Tablet
+}, {
+  name: "Apps",
+  icon: AppWindow
+}, {
+  name: "Mac",
+  icon: Monitor
+}, {
+  name: "Windows",
+  icon: Monitor
+}, {
+  name: "Internet",
+  icon: Globe
+}, {
+  name: "Wi-Fi",
+  icon: Wifi
+}, {
+  name: "Smart TVs",
+  icon: Tv
+}, {
+  name: "Printers",
+  icon: Printer
+}];
 const Home = () => {
-  return (
-    <div className="min-h-screen bg-background">
+  return <div className="min-h-screen bg-background">
       <Navigation />
       
       {/* Hero Section */}
@@ -46,7 +52,7 @@ const Home = () => {
                 </span>
               </h1>
               <p className="text-xl text-muted-foreground">
-                Hi, I'm Greg, your friendly high-tech handyman. I solve technology challenges with phones, computers, TVs, and Wi-Fi – making tech work for you, not against you.
+                Hi, I'm Greg, your friendly high tech handyman. I solve technology challenges with phones, computers, TVs, and Wi-Fi – making tech work for you, not against you.
               </p>
               
               <div className="flex flex-col sm:flex-row gap-4 pt-4">
@@ -69,11 +75,7 @@ const Home = () => {
             </div>
             
             <div className="relative">
-              <img 
-                src={heroImage} 
-                alt="Professional tech support assistance" 
-                className="rounded-2xl shadow-2xl"
-              />
+              <img src={heroImage} alt="Professional tech support assistance" className="rounded-2xl shadow-2xl" />
             </div>
           </div>
         </div>
@@ -92,18 +94,13 @@ const Home = () => {
           </div>
           
           <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-4">
-            {services.map((service) => {
-              const Icon = service.icon;
-              return (
-                <Card 
-                  key={service.name}
-                  className="p-6 text-center hover:shadow-lg transition-all duration-300 hover:scale-105 border-border bg-card"
-                >
+            {services.map(service => {
+            const Icon = service.icon;
+            return <Card key={service.name} className="p-6 text-center hover:shadow-lg transition-all duration-300 hover:scale-105 border-border bg-card">
                   <Icon className="h-8 w-8 mx-auto mb-3 text-primary" />
                   <h3 className="font-semibold text-card-foreground">{service.name}</h3>
-                </Card>
-              );
-            })}
+                </Card>;
+          })}
           </div>
         </div>
       </section>
@@ -116,7 +113,7 @@ const Home = () => {
               Ready to solve your tech challenges?
             </h2>
             <p className="text-lg text-muted-foreground mb-8 max-w-2xl mx-auto">
-              Get personalized, friendly tech support that actually makes sense. No jargon, just solutions.
+              Get personalized, friendly tech help that actually makes sense. No jargon, just solutions.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Link to="/request-help">
@@ -138,7 +135,7 @@ const Home = () => {
       {/* Footer */}
       <footer className="py-8 px-4 border-t border-border">
         <div className="container mx-auto text-center text-muted-foreground">
-          <p>© 2024 Greg your High Tech Handyman. Making technology work for you.</p>
+          <p>© 2024 Greg the High Tech Handyman. Making technology work for you.</p>
           <p className="mt-2">
             <a href="tel:8053160088" className="hover:text-primary transition-colors">
               (805) 316-0088
@@ -146,8 +143,6 @@ const Home = () => {
           </p>
         </div>
       </footer>
-    </div>
-  );
+    </div>;
 };
-
 export default Home;
