@@ -45,14 +45,15 @@ const Home = () => {
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             <div className="space-y-6">
               <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold text-foreground leading-tight">
-                Got technology problems?
+                Got technology needs?
+I can help.
                 <br />
                 <span className="bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent">
                   I can help.
                 </span>
               </h1>
               <p className="text-xl text-muted-foreground">
-                Hi, I'm Greg, your friendly high tech handyman. I solve technology challenges with phones, computers, TVs, and Wi-Fi— making tech work for you, not against you.
+                Hi. I'm Greg— your friendly high tech handyman. I solve technology challenges with phones, computers, TVs, and Wi-Fi— making tech work for you, not against you. Whether setting up something newer addressing exiting problems, I’ll help.                          
               </p>
               
               <div className="flex flex-col sm:flex-row gap-4 pt-4">
