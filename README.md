@@ -23,6 +23,21 @@ This repository supports three package managers: `npm`, `yarn`, and `bun`.
 CI behavior:
 - The main CI workflow runs with `npm` and `yarn` by default (matrix build).
 - Bun is supported via a manual GitHub Actions workflow named "Bun CI" (triggerable from the Actions tab) so Bun usage remains optional.
+
+Triggering the NPM-only CI run
+--------------------------------
+
+If you want to run only the `npm` job (instead of the matrix), use the manual CI dispatcher I added. You can trigger it from the GitHub UI (Actions → "CI (manual dispatch)" → Run workflow) and select `npm`, or use the GitHub CLI:
+
+```bash
+# trigger npm-only run
+gh workflow run ci-manual.yml -f package-manager=npm --ref main
+
+# watch the run
+gh run watch
+```
+
+This will run a single CI job that uses `npm` to install and build.
 # Welcome to your Lovable project
 
 ## Project info.
