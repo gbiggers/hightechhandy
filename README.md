@@ -53,6 +53,23 @@ npm install
 npm run dev
 ```
 
+You can also use `yarn` if you prefer:
+
+```sh
+# 1) Install Yarn (if not installed)
+npm install -g yarn
+
+# 2) Install dependencies (creates `yarn.lock`)
+yarn install
+
+# 3) Start development server
+yarn dev
+```
+
+Notes:
+- This project still supports Bun; keeping Bun installed is optional. Bun-specific commands (e.g. `bun install`, `bun run dev`) will continue to work.
+- If you switch to `npm` or `yarn`, generate and commit the lockfile (`package-lock.json` or `yarn.lock`) so other contributors use the same dependency tree.
+
 **Edit a file directly in GitHub**
 
 - Navigate to the desired file(s).
