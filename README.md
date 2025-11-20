@@ -18,21 +18,38 @@ Changes made via Lovable will be committed automatically to this repo.
 
 If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+This project uses Bun by default, but you can also use Node.js + npm if you prefer.
 
-Follow these steps:
+Quick Start (Bun):
 
 ```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+# 1) Install Bun (if not installed)
+curl -fsSL https://bun.sh/install | bash
+export PATH="$HOME/.bun/bin:$PATH"     # or restart your terminal
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+# 2) Install dependencies
+bun install
 
-# Step 3: Install the necessary dependencies.
-npm i
+# 3) Start development server
+bun run dev
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+# 4) Build for production
+bun run build
+
+# (Optional) Preview a production build if a preview script exists
+bun run preview
+```
+
+Quick Start (Node/npm):
+
+```sh
+# 1) Install Node.js and npm (for example via nvm)
+# https://github.com/nvm-sh/nvm#installing-and-updating
+
+# 2) Install dependencies
+npm install
+
+# 3) Start development server
 npm run dev
 ```
 
