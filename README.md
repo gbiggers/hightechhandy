@@ -1,3 +1,28 @@
+# hightechhandy
+
+## Running the project
+
+This repository supports three package managers: `npm`, `yarn`, and `bun`.
+
+- npm (preferred by CI):
+	- Install: `npm install`
+	- Dev server: `npm run dev`
+	- Build: `npm run build`
+
+- yarn:
+	- Install: `yarn install`
+	- Dev server: `yarn dev`
+	- Build: `yarn build`
+
+- bun (kept optional):
+	- Install: `curl -fsSL https://bun.sh/install | bash && export PATH="$HOME/.bun/bin:$PATH"`
+	- Install deps: `bun install`
+	- Dev server: `bun run dev`
+	- Build: `bun run build`
+
+CI behavior:
+- The main CI workflow runs with `npm` and `yarn` by default (matrix build).
+- Bun is supported via a manual GitHub Actions workflow named "Bun CI" (triggerable from the Actions tab) so Bun usage remains optional.
 # Welcome to your Lovable project
 
 ## Project info.
