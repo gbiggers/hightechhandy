@@ -61,12 +61,12 @@ const Home = () => {
                     I need help
                   </Button>
                 </a>
-                <a href="tel:8053160088">
+                {/* <a href="tel:8053160088">
                   <Button size="lg" variant="outline" className="w-full sm:w-auto text-lg">
                     <Phone className="mr-2 h-5 w-5" />
                     (805) 316-0088
                   </Button>
-                </a>
+                </a> */}
               </div>
               
               <p className="text-sm text-muted-foreground pt-2">
@@ -128,7 +128,7 @@ Use the button below to text Greg:
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Link to="/request-help">
                 <Button size="lg" className="text-lg">
-                  Text Greg
+                  Text Greg for Help
                 </Button>
               </Link>
               {/* <a href="tel:8053160088">
