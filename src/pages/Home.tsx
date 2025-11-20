@@ -55,18 +55,29 @@ const Home = () => {
                 Hi. I'm Greg— your friendly high tech handyman. I solve technology challenges with phones, computers, TVs, and Wi-Fi— making tech work for you, not against you. Whether setting up something new or addressing existing problems, let me help you.
               </p>
               
+              {/* Older version (kept for reference):
               <div className="flex flex-col sm:flex-row gap-4 pt-4">
                 <a href="sms:8053160088&body=I need High Tech Handyman Help">
                   <Button size="lg" className="w-full sm:w-auto text-lg">
                     I need help
                   </Button>
                 </a>
-                {/* <a href="tel:8053160088">
-                  <Button size="lg" variant="outline" className="w-full sm:w-auto text-lg">
+              </div>
+              */}
+
+              <div className="flex flex-col sm:flex-row gap-4 pt-4 items-start">
+                <a href="sms:+18053160088?body=I%20need%20High%20Tech%20Handyman%20Help" aria-label="Text Greg for help">
+                  <Button size="lg" className="w-full sm:w-auto text-lg rounded-full px-6 py-3 shadow-lg bg-gradient-to-r from-primary to-accent text-white transform transition duration-200 ease-in-out hover:scale-105 focus:outline-none focus:ring-4 focus:ring-primary/30">
                     <Phone className="mr-2 h-5 w-5" />
+                    I need help
+                  </Button>
+                </a>
+
+                <a href="tel:+18053160088" aria-label="Call Greg">
+                  <Button size="lg" variant="outline" className="w-full sm:w-auto text-lg rounded-full px-6 py-3">
                     (805) 316-0088
                   </Button>
-                </a> */}
+                </a>
               </div>
               
               <p className="text-sm text-muted-foreground pt-2">
