@@ -16,6 +16,7 @@ export default {
       fontFamily: {
         'lora': ['Lora', 'serif'],
         'ovo': ['Ovo', 'serif'],
+        'simonetta': ['Simonetta', 'serif'],
       },
       colors: {
         border: "hsl(var(--border))",
