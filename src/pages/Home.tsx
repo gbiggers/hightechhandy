@@ -3,7 +3,7 @@ import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
 import Navigation from "@/components/Navigation";
 import heroImage from "@/assets/hero-tech-support.jpg";
-import { Smartphone, Tablet, Monitor, Wifi, Tv, Printer, AppWindow, Globe, Phone } from "lucide-react";
+import { Smartphone, Tablet, Monitor, Wifi, Tv, Printer, AppWindow, Globe, MessageSquare } from "lucide-react";
 const services = [{
   name: "iPhone",
   icon: Smartphone
@@ -67,8 +67,8 @@ const Home = () => {
 
               <div className="flex flex-col sm:flex-row gap-4 pt-4 items-start">
                 <a href="sms:+18053160088?body=I%20need%20High%20Tech%20Handyman%20help!%20My%20issue%20is:" aria-label="Text Greg for help">
-                  <Button size="lg" className="w-full sm:w-auto text-lg rounded-full px-6 py-3 shadow-lg bg-gradient-to-r from-primary to-accent text-white transform transition duration-200 ease-in-out hover:scale-105 focus:outline-none focus:ring-4 focus:ring-primary/30">
-                    <Phone className="mr-2 h-5 w-5" />
+                  <Button size="lg" className="w-full sm:w-auto text-lg rounded-full px-8 py-4 shadow-xl bg-gradient-to-br from-primary via-primary/90 to-accent hover:shadow-2xl transform transition-all duration-300 ease-in-out hover:scale-105 focus:outline-none focus:ring-4 focus:ring-primary/50 text-primary-foreground font-semibold">
+                    <MessageSquare className="mr-2 h-5 w-5" />
                     I need help
                   </Button>
                 </a>
