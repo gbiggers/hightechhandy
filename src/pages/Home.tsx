@@ -52,7 +52,7 @@ const Home = () => {
                 </span>
               </h1>
               <p className="text-2xl text-foreground font-ovo">
-                Hi, I'm Greg. Your friendly high tech handyman. I solve technology challenges with phones, computers, TVs, and Wi-Fi. Let's making tech work for you, not against you. Whether setting up something new or existing problems, <span className="font-semibold italic">I can help you.</span>
+                Hi, I'm Greg. Your friendly high tech handyman. I solve technology challenges with phones, computers, TVs, and Wi-Fi. Let’s making tech work for you, not against you. Whether setting up something new or existing problems, I can help you.
 
 
 
@@ -94,7 +94,7 @@ const Home = () => {
         <div className="container mx-auto">
           <div className="text-center mb-12">
             <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-4">
-              I Solve Technology Challenges   
+              I Solve Technology Challenges   
             </h2>
             <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
               From smartphones to smart homes, I help with all your tech needs:
@@ -124,6 +124,7 @@ const Home = () => {
               Get personalized, friendly help that actually makes sense.
 No jargon, just solutions.
 Use the button below to text Greg:
+
 
 
 
