@@ -73,7 +73,7 @@ const Home = () => {
                 <a href="sms:+18053160088?body=I%20need%20some%20tech%20help.%20My%20issue%20is:%20" aria-label="Text Greg for help">
                   <Button size="lg" className="w-full sm:w-auto text-lg rounded-full px-8 py-4 shadow-xl bg-gradient-to-br from-primary via-primary/90 to-accent hover:shadow-2xl transition-all duration-300 ease-in-out hover:scale-105 focus:outline-none focus:ring-4 focus:ring-primary/50 text-primary-foreground font-semibold">
                     <MessagesSquare className="mr-2 h-5 w-5" />
-                    I need help
+                    Message Greg: I need help!
                   </Button>
                 </a>
               </div>
