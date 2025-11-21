@@ -36,7 +36,7 @@ const services = [{
   icon: Printer
 }];
 const Home = () => {
-  return <div className="min-h-screen bg-background">
+  return <div className="min-h-screen bg-background safe-area-x">
       <Navigation />
       
       {/* Hero Section */}
@@ -46,7 +46,7 @@ const Home = () => {
             <div className="space-y-6">
               <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold text-foreground leading-tight">
                 Got tech needs?{" "}
-                <span className="bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent whitespace-nowrap">
+                <span className="bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent">
                   I can help.
                 </span>
               </h1>
