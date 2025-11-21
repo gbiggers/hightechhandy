@@ -51,7 +51,9 @@ const Home = () => {
                 </span>
               </h1>
               <p className="text-2xl text-foreground font-ovo leading-relaxed">
-                Hi 👋 I'm Greg, your friendly high tech handyman. I solve technology challenges— whether with phones, computers, TVs, or Wi-Fi. I know it can be so frustrating. Let's make tech work for you and your family, not against you.
+                Hi 👋 I'm Greg, your friendly high tech handyman. I solve technology challenges. With phones, computers, TVs, or Wi-Fi, I know it can be so frustrating. Let's make tech work for you and your family, not against you.
+
+Whether setting up something new or solving existing problems, I can help.
                 <br /><br />
                 Setting up something new or solving existing problems, I can help.
 
@@ -102,7 +104,7 @@ const Home = () => {
                 <img src={heroImage} alt="Professional tech support assistance" className="w-full h-full object-cover object-center" />
               </div>
               <p className="text-sm text-muted-foreground pt-2">
-                Serving the Central Coast— from Lompoc to San Luis Obispo, to Cambria, and northern Santa Barbara counties
+                Serving homes and small businesses on the Central Coast— from Lompoc to San Luis Obispo, to Cambria and northern Santa Barbara county
               </p>
             </div>
           </div>
