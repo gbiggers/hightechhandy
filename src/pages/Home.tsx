@@ -79,7 +79,7 @@ const Home = () => {
               </div>
               
               <p className="text-sm text-muted-foreground pt-2">
-                Serving the Central Coast— from Lompoc, to San Luis Obispo, to Cambria, and northern Santa Barbara counties
+                Serving the Central Coast— from Lompoc to San Luis Obispo, to Cambria, and northern Santa Barbara counties
               </p>
             </div>
             
