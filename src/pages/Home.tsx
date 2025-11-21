@@ -51,7 +51,7 @@ const Home = () => {
                   I can help.
                 </span>
               </h1>
-              <p className="text-xl text-muted-foreground font-medium font-zilla">
+              <p className="text-xl text-muted-foreground font-medium font-lora">
                 Hi. I'm Greg— your friendly high tech handyman. I solve technology challenges with phones, computers, TVs, and Wi-Fi— making tech work for you, not against you. Whether setting up something new or existing problems, I can help you.      
               </p>
               
@@ -93,7 +93,7 @@ const Home = () => {
             <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-4">
               I Solve Technology Challenges   
             </h2>
-            <p className="text-lg text-muted-foreground max-w-2xl mx-auto font-zilla">
+            <p className="text-lg text-muted-foreground max-w-2xl mx-auto font-lora">
               From smartphones to smart homes, I help with all your tech needs:
             </p>
           </div>
@@ -117,7 +117,7 @@ const Home = () => {
             <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-4">
               Ready to solve your tech challenges?
             </h2>
-            <p className="text-lg text-muted-foreground mb-8 max-w-2xl mx-auto font-zilla">
+            <p className="text-lg text-muted-foreground mb-8 max-w-2xl mx-auto font-lora">
               Get personalized, friendly help that actually makes sense.
 No jargon, just solutions.
 Use the button below to text Greg:
