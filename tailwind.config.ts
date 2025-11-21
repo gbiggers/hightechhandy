@@ -81,30 +81,20 @@ export default {
           },
         },
         "subtle-glow": {
-          "0%, 15%, 100%": {
-            transform: "translateX(0)",
+          "0%, 35%, 100%": {
+            transform: "translateX(0) scale(1)",
+            boxShadow: "0 10px 30px -10px rgba(0, 0, 0, 0.3)",
           },
-          "2%": {
-            transform: "translateX(-4px)",
-          },
-          "4%": {
-            transform: "translateX(4px)",
-          },
-          "6%": {
-            transform: "translateX(-4px)",
-          },
-          "8%": {
-            transform: "translateX(4px)",
-          },
-          "10%": {
-            transform: "translateX(0)",
+          "50%, 85%": {
+            transform: "translateX(2px) scale(1.02)",
+            boxShadow: "0 15px 40px -10px rgba(0, 0, 0, 0.4)",
           },
         },
       },
       animation: {
         "accordion-down": "accordion-down 0.2s ease-out",
         "accordion-up": "accordion-up 0.2s ease-out",
-        "subtle-glow": "subtle-glow 5s ease-in-out infinite",
+        "subtle-glow": "subtle-glow 8s ease-in-out infinite",
       },
     },
   },
