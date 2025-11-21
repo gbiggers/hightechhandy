@@ -89,7 +89,7 @@ Whether setting up something new or solving existing problems, I can help.
                </div>
                */}
 
-              <div className="flex flex-col sm:flex-row gap-4 pt-4 items-center justify-center">
+              <div className="flex flex-col sm:flex-row gap-4 pt-4">
                 <a href="sms:+18053160088?body=I%20need%20some%20tech%20help.%20My%20issue%20is:%20" aria-label="Text Greg for help">
                   <Button variant="gradient" size="lg" className="w-full sm:w-auto text-lg rounded-full px-8 py-4 shadow-[0_4px_14px_0_rgba(0,118,255,0.39),0_10px_32px_0_rgba(0,118,255,0.2)] hover:shadow-[0_6px_20px_rgba(0,118,255,0.5),0_15px_40px_rgba(0,118,255,0.3)] bg-[length:200%_100%] hover:bg-[position:100%_0] transition-all duration-500 ease-in-out hover:scale-105 focus:outline-none focus:ring-4 focus:ring-primary/50 font-semibold">
                     <MessagesSquare className="mr-2 h-5 w-5" />
