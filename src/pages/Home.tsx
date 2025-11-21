@@ -52,18 +52,18 @@ const Home = () => {
                 </span>
               </h1>
               <p className="text-xl text-muted-foreground font-medium">
-                Hi. I'm Greg— your friendly high tech handyman. I solve technology challenges with phones, computers, TVs, and Wi-Fi— making tech work for you, not against you. Whether setting up something new or addressing existing problems, let me help you.
+                Hi. I'm Greg— your friendly high tech handyman. I solve technology challenges with phones, computers, TVs, and Wi-Fi— making tech work for you, not against you. Whether setting up something new or existing problems, I can help you.      
               </p>
               
               {/* Older version (kept for reference):
-              <div className="flex flex-col sm:flex-row gap-4 pt-4">
+               <div className="flex flex-col sm:flex-row gap-4 pt-4">
                 <a href="sms:8053160088&body=I need High Tech Handyman Help">
                   <Button size="lg" className="w-full sm:w-auto text-lg">
                     I need help
                   </Button>
                 </a>
-              </div>
-              */}
+               </div>
+               */}
 
               <div className="flex flex-col sm:flex-row gap-4 pt-4 items-start">
                 <a href="sms:+18053160088?body=I%20need%20High%20Tech%20Handyman%20help!%20My%20issue%20is:" aria-label="Text Greg for help">
@@ -141,7 +141,7 @@ Use the button below to text Greg:
                   <Phone className="mr-2 h-5 w-5" />
                   Text or call now
                 </Button>
-              </a> */}
+               </a> */}
             </div>
           </Card>
         </div>
