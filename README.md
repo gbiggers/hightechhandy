@@ -1,5 +1,7 @@
 # hightechhandy
 
+![CI status](https://github.com/gbiggers/hightechhandy/actions/workflows/ci.yml/badge.svg?branch=main) ![Manual CI status](https://github.com/gbiggers/hightechhandy/actions/workflows/ci-manual.yml/badge.svg?branch=main) ![Bun manual status](https://github.com/gbiggers/hightechhandy/actions/workflows/bun-manual.yml/badge.svg?branch=main)
+
 ## Running the project
 
 This repository supports three package managers: `npm`, `yarn`, and `bun`.
@@ -23,6 +25,32 @@ This repository supports three package managers: `npm`, `yarn`, and `bun`.
 CI behavior:
 - The main CI workflow runs with `npm` and `yarn` by default (matrix build).
 - Bun is supported via a manual GitHub Actions workflow named "Bun CI" (triggerable from the Actions tab) so Bun usage remains optional.
+
+Cloudflare Pages (deploying the static `dist/` folder)
+---------------------------------------------------
+
+This project builds to a static `dist/` folder (Vite). Recommended deploy path is Cloudflare Pages.
+
+1. In the Pages project settings set:
+	 - Install command: `npm ci`
+	 - Build command: `npm run build`
+	 - Build output directory: `dist`
+	 - Node version: `20`
+
+2. To publish from your machine (one-off) you can run:
+```bash
+npm ci
+npm run build
+# publish using wrangler (requires API token and project name in secrets)
+npx wrangler pages publish ./dist --project-name=hightechhandy --branch=main
+```
+
+3. Automatic publish from GitHub Actions (optional):
+- A workflow can build on push and publish for you if you add the following repository secrets:
+	- `CLOUDFLARE_PAGES_API_TOKEN` — a Pages API token with deploy permissions
+	- `CLOUDFLARE_PAGES_PROJECT_NAME` — your Pages project name
+
+The repository includes a workflow that will attempt to publish when those secrets are set. If you prefer the Cloudflare Pages GitHub integration, Pages will automatically build and publish on push when connected.
 
 Triggering the NPM-only CI run
 --------------------------------

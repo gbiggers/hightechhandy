@@ -1,0 +1,35 @@
+name: Build and (optional) publish to Cloudflare Pages
+
+on:
+  push:
+    branches: [ main ]
+
+jobs:
+  build-and-publish:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Build
+        run: npm run build
+
+      - name: Publish to Cloudflare Pages (optional)
+        if: ${{ secrets.CLOUDFLARE_PAGES_API_TOKEN && secrets.CLOUDFLARE_PAGES_PROJECT_NAME }}
+        env:
+          CLOUDFLARE_PAGES_API_TOKEN: ${{ secrets.CLOUDFLARE_PAGES_API_TOKEN }}
+          CLOUDFLARE_PAGES_PROJECT_NAME: ${{ secrets.CLOUDFLARE_PAGES_PROJECT_NAME }}
+        run: |
+          # Install wrangler and publish the built `dist/` folder to Pages.
+          # You must add two repository secrets: CLOUDFLARE_PAGES_API_TOKEN and CLOUDFLARE_PAGES_PROJECT_NAME
+          npm install -g @cloudflare/wrangler
+          # Use the API token from secrets to publish. If authentication method changes, update this step accordingly.
+          npx wrangler pages publish ./dist --project-name="$CLOUDFLARE_PAGES_PROJECT_NAME" --branch=main
