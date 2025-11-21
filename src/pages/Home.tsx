@@ -52,7 +52,7 @@ const Home = () => {
                 </span>
               </h1>
               <p className="text-2xl text-foreground font-ovo leading-relaxed">
-                Hi, I'm Greg. Your friendly high tech handyman. I solve technology challenges with phones, computers, TVs, and Wi-Fi. Let’s making tech work for you, not against you. Whether setting up something new or existing problems, I can help you.
+                Hi, I'm Greg. Your friendly high tech handyman. I solve technology challenges with phones, computers, TVs, and Wi-Fi. Let's making tech work for you, not against you. Whether setting up something new or existing problems, I can help you.
 
 
 
@@ -68,8 +68,7 @@ const Home = () => {
                </div>
                */}
 
-              <div className="flex-col sm:flex-row gap-4 pt-4 flex items-center justify-center">
-                <p className="text-lg font-semibold text-foreground">Text Greg: </p>
+              <div className="flex flex-col sm:flex-row gap-4 pt-4 items-center justify-center">
                 <a href="sms:+18053160088?body=I%20need%20some%20tech%20help.%20My%20issue%20is:%20" aria-label="Text Greg for help">
                   <Button size="lg" className="w-full sm:w-auto text-lg rounded-full px-8 py-4 shadow-xl bg-gradient-to-br from-primary via-primary/90 to-accent hover:shadow-2xl transition-all duration-300 ease-in-out hover:scale-105 focus:outline-none focus:ring-4 focus:ring-primary/50 text-primary-foreground font-semibold">
                     <MessagesSquare className="mr-2 h-5 w-5" />
@@ -95,7 +94,7 @@ const Home = () => {
         <div className="container mx-auto">
           <div className="text-center mb-12">
             <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-4">
-              I Solve Technology Challenges   
+              I Solve Technology Challenges   
             </h2>
             <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
               From smartphones to smart homes, I help with all your tech needs:
@@ -125,7 +124,6 @@ const Home = () => {
               Get personalized, friendly help that actually makes sense.
 No jargon, just solutions.
 Use the button below to text Greg:
-
 
 
 
