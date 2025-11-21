@@ -43,7 +43,7 @@ const Home = () => {
       <section className="pt-24 pb-8 px-4 sm:px-6">
         <div className="container mx-auto">
           <div className="grid lg:grid-cols-2 gap-12 items-center">
-            <div className="space-y-6 pr-4 sm:pr-8 md:pr-12">
+            <div className="space-y-6 px-2 sm:px-6">
               <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold text-foreground leading-tight">
                 Got tech needs?{" "}
                 <span className="bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent">
@@ -99,7 +99,7 @@ Whether setting up something new or solving existing problems, I can help.
               </div>
             </div>
             
-            <div className="space-y-4">
+            <div className="space-y-4 px-2 sm:px-6">
               <div className="relative w-full h-[400px] md:h-[500px] lg:h-[600px] overflow-hidden rounded-2xl shadow-[0_20px_60px_-15px_rgba(0,0,0,0.4)]">
                 <img src={heroImage} alt="Professional tech support assistance" className="w-full h-full object-cover object-center" />
               </div>
