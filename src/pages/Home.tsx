@@ -93,7 +93,7 @@ const Home = () => {
             <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-4">
               I Solve Technology Challenges   
             </h2>
-            <p className="text-lg text-muted-foreground max-w-2xl mx-auto font-lora font-light">
+            <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
               From smartphones to smart homes, I help with all your tech needs:
             </p>
           </div>
@@ -117,7 +117,7 @@ const Home = () => {
             <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-4">
               Ready to solve your tech challenges?
             </h2>
-            <p className="text-lg text-muted-foreground mb-8 max-w-2xl mx-auto font-lora font-light">
+            <p className="text-lg text-muted-foreground mb-8 max-w-2xl mx-auto">
               Get personalized, friendly help that actually makes sense.
 No jargon, just solutions.
 Use the button below to text Greg:
