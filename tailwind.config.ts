@@ -85,20 +85,20 @@ export default {
             transform: "translateX(0) rotate(0deg)",
           },
           "5%": {
-            transform: "translateX(6px) rotate(1.5deg)",
+            transform: "translateX(2px) rotate(0.5deg)",
           },
           "10%": {
-            transform: "translateX(-6px) rotate(-1.5deg)",
+            transform: "translateX(-2px) rotate(-0.5deg)",
           },
           "15%": {
-            transform: "translateX(4px) rotate(0.8deg)",
+            transform: "translateX(1px) rotate(0.3deg)",
           },
         },
       },
       animation: {
         "accordion-down": "accordion-down 0.2s ease-out",
         "accordion-up": "accordion-up 0.2s ease-out",
-        "subtle-glow": "subtle-glow 3s ease-in-out infinite",
+        "subtle-glow": "subtle-glow 5s ease-in-out infinite",
       },
     },
   },
