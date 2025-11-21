@@ -14,7 +14,7 @@ export default {
     },
     extend: {
       fontFamily: {
-        'zilla': ['Zilla Slab', 'serif'],
+        'lora': ['Lora', 'serif'],
       },
       colors: {
         border: "hsl(var(--border))",
