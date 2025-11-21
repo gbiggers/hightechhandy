@@ -85,13 +85,13 @@ export default {
             transform: "translateX(0) rotate(0deg)",
           },
           "5%": {
-            transform: "translateX(3px) rotate(1deg)",
+            transform: "translateX(6px) rotate(1.5deg)",
           },
           "10%": {
-            transform: "translateX(-3px) rotate(-1deg)",
+            transform: "translateX(-6px) rotate(-1.5deg)",
           },
           "15%": {
-            transform: "translateX(2px) rotate(0.5deg)",
+            transform: "translateX(4px) rotate(0.8deg)",
           },
         },
       },
