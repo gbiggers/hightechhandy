@@ -4,8 +4,8 @@ import { Phone } from "lucide-react";
 const Navigation = () => {
   const location = useLocation();
   const isHome = location.pathname === "/";
-  return <nav className="fixed top-0 w-full bg-background/95 backdrop-blur-sm border-b border-border z-50 shadow-sm">
-      <div className="container mx-auto px-4 py-4 flex justify-between items-center">
+    return <nav className="fixed top-0 w-full bg-background/95 backdrop-blur-sm border-b border-border z-50 shadow-sm safe-area-x">
+      <div className="container mx-auto px-4 sm:px-6 py-4 flex justify-between items-center">
         <Link to="/" className="text-xl font-bold text-foreground hover:text-primary transition-colors">
           Greg the High Tech Handyman
         </Link>
