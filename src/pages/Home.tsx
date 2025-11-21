@@ -79,8 +79,12 @@ const Home = () => {
             </div>
             
             <div className="space-y-4">
-              <div className="relative">
-                <img src={heroImage} alt="Professional tech support assistance" className="rounded-2xl shadow-2xl" />
+              <div className="relative w-full h-[400px] md:h-[500px] lg:h-[600px] overflow-hidden rounded-2xl shadow-2xl">
+                <img 
+                  src={heroImage} 
+                  alt="Professional tech support assistance" 
+                  className="w-full h-full object-cover object-center"
+                />
               </div>
               <p className="text-sm text-muted-foreground pt-2">
                 Serving the Central Coast— from Lompoc to San Luis Obispo, to Cambria, and northern Santa Barbara counties
