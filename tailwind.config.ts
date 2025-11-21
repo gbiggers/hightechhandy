@@ -81,11 +81,11 @@ export default {
           },
         },
         "subtle-glow": {
-          "0%, 30%, 100%": {
+          "0%, 35%, 100%": {
             transform: "translateX(0) scale(1)",
             boxShadow: "0 10px 30px -10px rgba(0, 0, 0, 0.3)",
           },
-          "15%": {
+          "50%, 85%": {
             transform: "translateX(2px) scale(1.02)",
             boxShadow: "0 15px 40px -10px rgba(0, 0, 0, 0.4)",
           },
@@ -94,7 +94,7 @@ export default {
       animation: {
         "accordion-down": "accordion-down 0.2s ease-out",
         "accordion-up": "accordion-up 0.2s ease-out",
-        "subtle-glow": "subtle-glow 5s ease-in-out infinite",
+        "subtle-glow": "subtle-glow 8s ease-in-out infinite",
       },
     },
   },
