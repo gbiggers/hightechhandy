@@ -72,12 +72,6 @@ const Home = () => {
                     I need help
                   </Button>
                 </a>
-
-                <a href="tel:+18053160088" aria-label="Call Greg">
-                  <Button size="lg" variant="outline" className="w-full sm:w-auto text-lg rounded-full px-6 py-3">
-                    (805) 316-0088
-                  </Button>
-                </a>
               </div>
               
               <p className="text-sm text-muted-foreground pt-2">
