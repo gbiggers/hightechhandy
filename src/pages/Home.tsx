@@ -43,7 +43,7 @@ const Home = () => {
       <section className="pt-24 pb-8 px-4 sm:px-6">
         <div className="container mx-auto">
           <div className="grid lg:grid-cols-2 gap-12 items-center">
-            <div className="space-y-6">
+            <div className="space-y-6 pr-4 sm:pr-8 md:pr-12">
               <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold text-foreground leading-tight">
                 Got tech needs?{" "}
                 <span className="bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent">
