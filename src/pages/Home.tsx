@@ -100,7 +100,7 @@ Whether setting up something new or solving existing problems, I can help.
             </div>
             
             <div className="space-y-4">
-              <div className="relative w-full h-[400px] md:h-[500px] lg:h-[600px] overflow-hidden rounded-2xl shadow-2xl">
+              <div className="relative w-full h-[400px] md:h-[500px] lg:h-[600px] overflow-hidden rounded-2xl shadow-[0_20px_60px_-15px_rgba(0,0,0,0.4)]">
                 <img src={heroImage} alt="Professional tech support assistance" className="w-full h-full object-cover object-center" />
               </div>
               <p className="text-sm text-muted-foreground pt-2">
