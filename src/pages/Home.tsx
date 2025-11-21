@@ -76,14 +76,15 @@ const Home = () => {
                   </Button>
                 </a>
               </div>
-              
+            </div>
+            
+            <div className="space-y-4">
+              <div className="relative">
+                <img src={heroImage} alt="Professional tech support assistance" className="rounded-2xl shadow-2xl" />
+              </div>
               <p className="text-sm text-muted-foreground pt-2">
                 Serving the Central Coast— from Lompoc to San Luis Obispo, to Cambria, and northern Santa Barbara counties
               </p>
-            </div>
-            
-            <div className="relative">
-              <img src={heroImage} alt="Professional tech support assistance" className="rounded-2xl shadow-2xl" />
             </div>
           </div>
         </div>
