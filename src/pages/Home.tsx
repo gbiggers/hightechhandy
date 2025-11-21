@@ -51,7 +51,7 @@ const Home = () => {
                   I can help.
                 </span>
               </h1>
-              <p className="text-2xl text-foreground font-ovo">
+              <p className="text-2xl text-foreground font-ovo leading-relaxed">
                 Hi, I'm Greg. Your friendly high tech handyman. I solve technology challenges with phones, computers, TVs, and Wi-Fi. Let’s making tech work for you, not against you. Whether setting up something new or existing problems, I can help you.
 
 
