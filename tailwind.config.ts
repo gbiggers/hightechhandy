@@ -81,17 +81,23 @@ export default {
           },
         },
         "subtle-glow": {
-          "0%, 20%, 100%": {
-            transform: "translateX(0) rotate(0deg)",
+          "0%, 15%, 100%": {
+            transform: "translateX(0)",
           },
-          "5%": {
-            transform: "translateX(2px) rotate(0.5deg)",
+          "2%": {
+            transform: "translateX(-4px)",
+          },
+          "4%": {
+            transform: "translateX(4px)",
+          },
+          "6%": {
+            transform: "translateX(-4px)",
+          },
+          "8%": {
+            transform: "translateX(4px)",
           },
           "10%": {
-            transform: "translateX(-2px) rotate(-0.5deg)",
-          },
-          "15%": {
-            transform: "translateX(1px) rotate(0.3deg)",
+            transform: "translateX(0)",
           },
         },
       },
