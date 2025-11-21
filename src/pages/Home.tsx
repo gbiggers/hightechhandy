@@ -40,7 +40,7 @@ const Home = () => {
       <Navigation />
       
       {/* Hero Section */}
-      <section className="pt-24 pb-8 pl-3 pr-8 sm:px-4">
+      <section className="pt-24 pb-8 px-4 sm:px-6">
         <div className="container mx-auto">
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             <div className="space-y-6">
@@ -112,7 +112,7 @@ Whether setting up something new or solving existing problems, I can help.
       </section>
 
       {/* Services Section */}
-      <section className="py-8 pl-3 pr-8 sm:px-4 bg-muted/30">
+      <section className="py-8 px-4 sm:px-6 bg-muted/30">
         <div className="container mx-auto">
           <div className="text-center mb-12">
             <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-4">
@@ -136,7 +136,7 @@ Whether setting up something new or solving existing problems, I can help.
       </section>
 
       {/* CTA Section */}
-      <section className="py-12 pl-3 pr-8 sm:px-4">
+      <section className="py-12 px-4 sm:px-6">
         <div className="container mx-auto">
           <Card className="p-8 md:p-12 text-center bg-gradient-to-br from-primary/10 to-accent/10 border-primary/20">
             <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-4">
@@ -172,7 +172,7 @@ Use the button below to text Greg:
       </section>
 
       {/* Footer */}
-      <footer className="py-8 pl-3 pr-8 sm:px-4 border-t border-border">
+      <footer className="py-8 px-4 sm:px-6 border-t border-border">
         <div className="container mx-auto text-center text-muted-foreground">
           <p>© 2025 Greg the High Tech Handyman. Making technology work for you.</p>
           <p className="mt-2">
