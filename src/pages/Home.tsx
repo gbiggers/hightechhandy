@@ -152,7 +152,7 @@ Use the button below to text Greg:
         <div className="container mx-auto text-center text-muted-foreground">
           <p>© 2024 Greg the High Tech Handyman. Making technology work for you.</p>
           <p className="mt-2">
-            <a href="tel:8053160088" className="hover:text-primary transition-colors">
+            <a href="tel:+18053160088" className="hover:text-primary transition-colors">
               (805) 316-0088
             </a>
           </p>

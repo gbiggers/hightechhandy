@@ -11,7 +11,7 @@ const Navigation = () => {
         </Link>
         
         <div className="flex items-center gap-4">
-          <a href="tel:8053160088" className="hidden sm:flex items-center gap-2 text-foreground hover:text-primary transition-colors">
+          <a href="tel:+18053160088" className="hidden sm:flex items-center gap-2 text-foreground hover:text-primary transition-colors">
             <Phone className="h-4 w-4" />
             <span className="font-semibold">(805) 316-0088</span>
           </a>
