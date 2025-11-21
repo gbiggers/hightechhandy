@@ -52,7 +52,7 @@ const Home = () => {
                 </span>
               </h1>
               <p className="text-2xl text-foreground font-ovo">
-                Hi, I'm Greg. Your friendly high tech handyman. I solve technology challenges with phones, computers, TVs, and Wi-Fi. Let's making tech work for you, not against you. Whether setting up something new or existing problems, <span className="font-semibold">I can help you.</span>
+                Hi, I'm Greg. Your friendly high tech handyman. I solve technology challenges with phones, computers, TVs, and Wi-Fi. Let's making tech work for you, not against you. Whether setting up something new or existing problems, <span className="font-semibold italic">I can help you.</span>
 
 
 
