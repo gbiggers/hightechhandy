@@ -40,7 +40,7 @@ const Home = () => {
       <Navigation />
       
       {/* Hero Section */}
-      <section className="pt-24 pb-16 px-4">
+      <section className="pt-24 pb-8 px-4">
         <div className="container mx-auto">
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             <div className="space-y-6">
@@ -90,7 +90,7 @@ const Home = () => {
       </section>
 
       {/* Services Section */}
-      <section className="py-16 px-4 bg-muted/30">
+      <section className="py-12 px-4 bg-muted/30">
         <div className="container mx-auto">
           <div className="text-center mb-12">
             <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-4">
@@ -114,7 +114,7 @@ const Home = () => {
       </section>
 
       {/* CTA Section */}
-      <section className="py-16 px-4">
+      <section className="py-12 px-4">
         <div className="container mx-auto">
           <Card className="p-8 md:p-12 text-center bg-gradient-to-br from-primary/10 to-accent/10 border-primary/20">
             <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-4">
