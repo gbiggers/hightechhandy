@@ -15,6 +15,7 @@ export default {
     extend: {
       fontFamily: {
         'lora': ['Lora', 'serif'],
+        'ovo': ['Ovo', 'serif'],
       },
       colors: {
         border: "hsl(var(--border))",
