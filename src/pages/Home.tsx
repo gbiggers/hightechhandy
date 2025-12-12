@@ -48,9 +48,12 @@ I can help.<br />
                 </span>
               </h1>
               <p className="text-lg md:text-xl lg:text-2xl text-foreground font-ovo leading-relaxed">Hi 👋 I'm Greg, your friendly high tech handyman. I solve technology challenges. With phones, computers, TVs, speakers, or Wi-Fi, I know it can be so frustrating. Let's make tech work for you and your family, not against you.
-<br /><br />
+
+Whether setting up something new or solving existing problems, I can help. 
+
+In your home or at your office, I'll take you from HISS 🚫 to BLISS ❤️.<br /><br />
 Whether setting up something new or solving existing problems, I can help.
-<br /><br />
+              <br /><br />
 In your home or at your office, I'll take you from HISS 🚫 to BLISS ❤️.
               </p>
               
