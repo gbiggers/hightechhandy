@@ -50,9 +50,9 @@ I can help.<br />
                   I can help.
                 </span>
               </h1>
-              <p className="text-lg md:text-xl lg:text-2xl text-foreground font-ovo leading-relaxed">Hi 👋 I'm Greg, your friendly high tech handyman. I solve technology challenges. With phones, computers, TVs, speakers, or Wi-Fi, I know it can be so frustrating. Let's make tech work for you and your family, not against you. Whether setting up something new or solving existing problems, I will come to your home or office and help.
+              <p className="text-lg md:text-xl lg:text-2xl text-foreground font-ovo leading-relaxed">Hi 👋 I'm Greg, your friendly high tech handyman. I solve technology challenges. With phones, computers, TVs, speakers, or Wi-Fi, I know it can be so frustrating. Let's make tech work for you and your family, not against you.
 
-Whether setting up something new or solving existing problems, I can help. I'll come to your home or office, and take you from HISS 🚫 to BLISS ❤️.<br /><br />
+Whether setting up something new or solving existing problems, I can help. In your home or at your office, I'll take you from HISS 🚫 to BLISS ❤️.<br /><br />
                 Whether setting up something new or solving existing problems, I can help.
 
 
