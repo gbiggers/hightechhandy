@@ -44,16 +44,15 @@ const Home = () => {
         <div className="container mx-auto">
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             <div className="space-y-6">
-              <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold text-foreground leading-tight">
-                Got tech needs?
-                <br />
+              <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold text-foreground leading-tight">Technology got you down?
+I can help.<br />
                 <span className="bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent">
                   I can help.
                 </span>
               </h1>
-              <p className="text-lg md:text-xl lg:text-2xl text-foreground font-ovo leading-relaxed">
-                Hi 👋 I'm Greg, your friendly high tech handyman. I solve technology challenges. With phones, computers, TVs, or Wi-Fi, I know it can be so frustrating. Let's make tech work for you and your family, not against you.
-                <br /><br />
+              <p className="text-lg md:text-xl lg:text-2xl text-foreground font-ovo leading-relaxed">Hi 👋 I'm Greg, your friendly high tech handyman. I solve technology challenges. With phones, computers, TVs, speakers, or Wi-Fi, I know it can be so frustrating. Let's make tech work for you and your family, not against you.
+
+Whether setting up something new or solving existing problems, I will come to your home or office and help.<br /><br />
                 Whether setting up something new or solving existing problems, I can help.
 
 
