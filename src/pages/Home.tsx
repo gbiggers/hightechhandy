@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
 import Navigation from "@/components/Navigation";
-import heroImage from "@/assets/hero-coastal-bliss.jpg";
+import heroImage from "@/assets/hero-avila-beach.jpg";
 import { Smartphone, Monitor, Wifi, Tv, Printer, AppWindow, Speaker, MessagesSquare } from "lucide-react";
 const services = [{
   name: "iPhone",
