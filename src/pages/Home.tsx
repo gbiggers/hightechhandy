@@ -3,16 +3,13 @@ import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
 import Navigation from "@/components/Navigation";
 import heroImage from "@/assets/hero-tech-support-tall.jpg";
-import { Smartphone, Tablet, Monitor, Wifi, Tv, Printer, AppWindow, Globe, MessagesSquare } from "lucide-react";
+import { Smartphone, Monitor, Wifi, Tv, Printer, AppWindow, Speaker, MessagesSquare } from "lucide-react";
 const services = [{
   name: "iPhone",
   icon: Smartphone
 }, {
   name: "Android",
   icon: Smartphone
-}, {
-  name: "Tablets",
-  icon: Tablet
 }, {
   name: "Apps",
   icon: AppWindow
@@ -23,8 +20,8 @@ const services = [{
   name: "Windows",
   icon: Monitor
 }, {
-  name: "Internet",
-  icon: Globe
+  name: "Speakers",
+  icon: Speaker
 }, {
   name: "Wi-Fi",
   icon: Wifi
