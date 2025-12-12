@@ -41,8 +41,7 @@ const Home = () => {
         <div className="container mx-auto">
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             <div className="space-y-6">
-              <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold text-foreground leading-tight">Technology got you down?
-I can help.<br />
+              <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold text-foreground leading-tight">Technology got you down?<br />
                 <span className="bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent">
                   I can help.
                 </span>
