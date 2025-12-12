@@ -20,14 +20,14 @@ const services = [{
   name: "Windows",
   icon: Monitor
 }, {
-  name: "Speakers",
-  icon: Speaker
-}, {
   name: "Wi-Fi",
   icon: Wifi
 }, {
   name: "Smart TVs",
   icon: Tv
+}, {
+  name: "Speakers",
+  icon: Speaker
 }, {
   name: "Printers",
   icon: Printer
